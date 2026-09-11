@@ -5,7 +5,7 @@ import pandas as pd
 from google import genai
 
 # Apni API Key yahan daalein
- API_KEY = st.secrets["API_KEY"]
+API_KEY = st.secrets["API_KEY"]
 MODEL_NAME = "gemini-3.6-flash"
 
 COLUMNS = ["Q.No","Question","statement 1","statement 2","statement 3","statement 4",
